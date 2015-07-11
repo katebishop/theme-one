@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+  
+  <!--- images --->
+  <meta name="image:Sidebar" content="http://static.tumblr.com/1db9cadd86e27e0cd6af5780979257ab/xzqqn0j/aLZnr8etk/tumblr_static_70f4o2fqe70gk88wcww0g8gcs.gif" />
+  
+  
+  <!--- links --->
+  <meta name="text:Link01Title" content="link 01" />
+  <meta name="text:Link01URL" content="http://link 01" />
+ 
+  <meta name="text:Link02Title" content="link 02" />
+  <meta name="text:Link02URL" content="http://link 02" />
+
+  <meta name="text:Link03Title" content="link 03" />
+  <meta name="text:Link03URL" content="http://link 03" />
+  
+  
+  <!--- colors --->
+  <meta name="color:Background" content="#fefdfd" />
+  <meta name="color:Text" content="#9d9d9" />
+  <meta name="color:Accent1" content="#7d7d7d" />
+  <meta name="color:Accent2" content="#f2f2f2" />
+  
+
+  
+	<script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'/>
+<link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="http://static.tumblr.com/xzqqn0j/eohnhiqr2/jquery-1.11.0.min.js"><\/script>')</script>
+	
+	<!-- custom scrollbar plugin -->
+	<script src="http://static.tumblr.com/xzqqn0j/nhHnhiqq6/jquery.mcustomscrollbar.concat.min.js"></script>
+	
+	<link rel="stylesheet" href="http://static.tumblr.com/xzqqn0j/J0Ynhiqse/jquery.mcustomscrollbar.css">
+	
+	<script type="text/javascript" src="http://static.tumblr.com/xzqqn0j/SMFnnot6p/animatedcollapse.js">
+
+/***********************************************
+* Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+
+<script type="text/javascript">
+animatedcollapse.addDiv('list', 'fade=0,speed=400,group=pets,hide=1')
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+
+animatedcollapse.init()
+
+</script>
+	
+	<script>
+		(function($){
+			$(window).load(function(){
+				
+				$("#content-3").mCustomScrollbar({
+					scrollButtons:{enable:true},
+					theme:"light-thick",
+					scrollbarPosition:"outside"
+				});
+				
+				$("#content-4").mCustomScrollbar({
+					theme:"rounded-dots",
+					scrollInertia:400
+				});
+				
+				$("#content-5").mCustomScrollbar({
+					axis:"x",
+					theme:"dark-thin",
+					autoExpandScrollbar:true,
+					advanced:{autoExpandHorizontalScroll:true}
+				});
+				
+				$("#content-6").mCustomScrollbar({
+					axis:"x",
+					theme:"light-3",
+					advanced:{autoExpandHorizontalScroll:true}
+				});
+				
+				$("#content-7").mCustomScrollbar({
+					scrollButtons:{enable:true},
+					theme:"3d-thick"
+				});
+				
+				$("#content-8").mCustomScrollbar({
+					axis:"yx",
+					scrollButtons:{enable:true},
+					theme:"3d",
+					scrollbarPosition:"outside"
+				});
+				
+				$("#content-9").mCustomScrollbar({
+					scrollButtons:{enable:true,scrollType:"stepped"},
+					keyboard:{scrollType:"stepped"},
+					mouseWheel:{scrollAmount:188},
+					theme:"rounded-dark",
+					autoExpandScrollbar:true,
+					snapAmount:188,
+					snapOffset:65
+				});
+				
+			});
+		})(jQuery);
+	</script>
+
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".content").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+
+<title>
+    {Title}
+</title>
+<style>
+
+/*** basics ***/
+    body {
+        background: {color:Background};
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        color: {color:Text}d;
+        line-height: 16px;
+    }
+    
+    a:link, a:visited, a:active {
+        color: {color:Accent1};
+        text-decoration: none;
+    }
+    
+    b, bold, strong {
+        color: {color:Accent1};
+    }
+    
+    blockquote {
+        border-left: 5px solid;
+        border-color: {color:Accent2};
+        padding-left: 10px;
+    }
+    
+    div#credit {
+        width: autopx;
+        text-align: center;
+        padding-top: 0px;
+        right: 10px;
+        bottom: 10px;
+        display: block;
+        position: fixed;
+    }
+    
+    div#credit a {
+        padding: 2px 2px 2px 4px;
+        background: {color:Accent2};
+        width: auto;
+        display: inline-block;
+        font-size: 9px;
+        letter-spacing: 3px;
+        margin-bottom: 1px;
+        text-align: justify;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out;
+    }
+    
+
+/*** structure ***/
+    div#theme {
+        width: 720px;
+    }
+    
+    div#theme div#column {
+        width: 160px;
+        float: left;
+        margin-top: 200px;
+        text-align: justify;
+        position: fixed;
+    }
+    
+    div#theme div#content {
+        width: 500px;
+        float: right;
+        text-align: justify;
+        padding-top: 25px;
+    }
+
+
+/*** sidebar content ***/
+    div#image img {
+        width: 160px;
+        height: 160px;
+        display: inline-block;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    
+    div#about {
+        margin: 10px 10px 10px 10px;
+        text-align: justify;
+    }
+    
+    div#navigation {
+        text-align: center;
+        word-spacing: 10px;
+        margin: 5px 0px 0px 0px;
+    }
+    
+    div#list {
+        width: 160px;
+        text-align: center;
+        padding-top: 0px
+        padding-bottom: 20px;
+    }
+    
+    div#list a {
+        padding: 2px 2px 2px 2px;
+        border-bottom: 1px solid;
+        border-color: {color:Accent2};
+        width: 140px;
+        display: inline-block;
+        font-size: 9px;
+        letter-spacing: 3px;
+        margin-bottom: 1px;
+        text-align: justify;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out;
+    }
+    
+    div#list a:hover {
+        letter-spacing: 5px;
+    }
+
+/*** posts content ***/
+    div#space {
+        width: 500px;
+        padding: 5px;
+        margin: 0px 0px 50px 0px;
+        text-align: justify;
+        z-index: 99;
+    }
+    
+    div#titleone {
+        font-weight: 600;
+        font-size: 18px;
+        color: {color:Text};
+    }
+    
+    div#space div#photoinfo a {
+        width: auto;
+        background-color: {color:Accent2};
+        text-align: center;
+        display: inline-block;
+        color: #9c9c9c;
+        width: auto;
+        padding: 3px 5px 3px 5px;
+        margin: 1px;
+        text-transform: uppercase;
+        font-family: arial;
+        font-size: 7px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-top: 2px;
+        margin-right: 1px;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out;
+    }
+    
+    
+
+    div#space div#photoinfo a:hover {
+        background: none;
+    }
+    
+    
+    div#space div#tags {
+        margin-top: -15px;
+    }
+    
+    div#space div#tags a {
+        letter-spacing: 0px;
+        font-size: 9px;
+        color: {color:Text};
+        letter-spacing: 1px;
+        padding: 5px;
+        text-transform: lowercase;
+    }
+    
+    h1, h1 a {
+        text-decoration: none;
+        font-family: cambria;
+        font-size: 13px;
+        color: {color:Text};
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    
+    div#music {
+        min-height: 60px;
+        display: block;
+        position: relative;
+        float: right;
+        width: 420px;
+    }
+    
+    #paudiobox {
+        width: 33px; 
+        background: #fff; 
+        padding: 15px; 
+        float: right; 
+        height: 33px; 
+        display: inline-block;
+        
+    }
+        
+    #paudioplay {
+        width: 27px; 
+        height: 27px; 
+        overflow: hidden; 
+        opacity: 0.70; 
+        {block:Posts}{block:Audio}{block:AlbumArt}background: url('{AlbumArtURL}'){/block:AlbumArt};{/block:Audio}{/block:Posts} border: 3px solid #f7f7f7;
+    }
+    
+    #paudiocont {
+        width: 430px; 
+        float: left; 
+        height: 33px; 
+        display: inline-block; 
+        text-transform: uppercase; 
+        font-size: 8px; 
+        letter-spacing: 1px;
+        text-align: right;
+        line-height: 25px;
+    }
+    
+    div#question {
+        width: 500px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid;
+        border-color: {color:Accent2};
+        display: block;
+        float: right;
+        display: inline-block;
+    }
+    
+    div#postnotes li {
+        width: 500px;
+        padding: 3px;
+        border-bottom: 1px solid
+        border-color: {color:Accent2};
+        margin-bottom: 1px;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+    
+    div#postnotes li img {
+        margin-right: 3px;
+    }
+
+</style>
+<body>
+    
+    <div id="credit">
+        <a href="/">theme</a>
+    </div>
+    
+   <center>
+       
+       <div id="theme">
+       
+           
+           <div id="column">
+           
+<div id="navigation">
+<div style="float: left;"><a href="/">index</a> <a href="/ask">message</a> <a href="#" rel="toggle[list]" data-openimage="collapse.jpg" data-closedimage="expand.jpg">menu</a> </div>
+<div style="float: right;">{block:Pagination}{block:PreviousPage}<a href="{PreviousPage}"/>«</a>{/block:PreviousPage} {/block:Pagination}{block:Pagination}{block:NextPage}<a href="{NextPage}"/>»</a>{/block:NextPage}{/block:Pagination}</div>
+    
+    
+</div>
+
+               <div id="image">
+<img src="{image:Sidebar}" />
+               </div>
+              
+
+
+<div id="list"><div style="height: 10px; display: block;"> </div>
+<a href="{text:Link01URL}">{text:Link01Title}</a><a href="{text:Link02URL}">{text:Link02Title}</a><a href="{text:Link03URL}">{text:Link03Title}</a><br>
+</div>
+
+               <div id="about">{block:Description}{Description}{/block:Description}</div>
+
+           </div>
+           
+           
+           
+           <div id="content">
+
+           {block:Posts}
+               
+               <div id="space">
+                                         {block:Text}
+                    {block:Title}<div id="titleone">{Title}</div>{/block:Title}
+                    {Body}
+                    {/block:Text}
+                    
+                    
+                    {block:Photo}
+                    <img src="{PhotoURL-500}"/>
+                    {block:Caption}{Caption}{/block:Caption}
+                    {/block:Photo}
+                    
+                    
+                    {block:Photoset}
+                    {Photoset-500}
+                    {block:Caption}{Caption}{/block:Caption}
+                    {/block:Photoset}
+                   
+               
+                    {block:Quote}
+                    <center><h1>{Quote}</h1></center>
+                    {block:Source}<br><center>{Source}</center>{/block:Source}
+                    {/block:Quote}
+                    
+                    
+                    {block:Link}
+                    <h1><a href="{URL}">{Name}</a></h1>
+                    {block:Description}{Description}{/block:Description}
+                    {/block:Link}
+                    
+                    
+                    {block:Chat}
+                    {block:Title}<h1>{Title}</h1>{/block:Title}
+{block:Lines}<div class="{Alt} user_{UserNumber}">{block:Label}<span class="label">{Label} </span>{/block:Label}{Line}</div>{/block:Lines}
+                    {/block:Chat}
+                    
+                    
+                    {block:Audio}
+                    <div style="width: 500px; display: block; height: 68px;">
+                    <div id="paudiobox">
+                    <div id="paudioplay">{block:AudioPlayer}{AudioPlayer}{/block:AudioPlayer}</div>
+                    </div>
+                    <div id="paudiocont">
+                        {block:PlayCount}{PlayCountWithLabel}{/block:PlayCount}<br>
+                        {block:TrackName}{TrackName}{/block:TrackName} // {block:Artist}{Artist}{/block:Artist}
+                    </div>
+                    </div>
+                    {/block:Audio} 
+                    
+                    
+                    {block:Video}
+                    {Video-500}
+                    {block:Caption}{Caption}{/block:Caption}
+                    {/block:Video}
+                   
+                   
+                   {block:Answer}
+                   <div id="question">{Asker}: {Question}</div><br>
+                   <div id="answer">{Answer}</div>
+                   {/block:Answer}
+                   
+                   
+<div id="photoinfo">{block:Date}<a href="{Permalink}" id="time">{TimeAgo}</a>{/block:Date}{block:NoteCount}<a href="{Permalink}" id="infoone" style="background: none;">{NoteCountWithLabel}</a><div style="float: right;">{block:RebloggedFrom}<a href="{ReblogParentURL}" id="infotwo" style="background: none;">VIA</a>{/block:RebloggedFrom}{block:ContentSource}<a href="{SourceURL}" id="infotwo"  style="background: none;">ORGINAL</a>{/block:ContentSource}</div>
+                    {/block:NoteCount}</div>
+<div id="tags">
+{block:HasTags}<br>{block:Tags}<a href="{TagURL}">#{Tag}</a> {/block:Tags}{/block:HasTags}
+    
+    
+</div>
+                {block:PostNotes}<div id="postnotes">{PostNotes}</div>{/block:PostNotes}
+               </div>
+               
+               
+             
+               {/block:Posts}
+           </div>
+          
+           
+       </div>
+       
+       
+   </center>
+    
+    
+</body>
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
